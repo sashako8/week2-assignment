@@ -14,9 +14,7 @@ class Article extends React.Component {
             image: PropTypes.string.isRequired,
             description: PropTypes.string.isRequired,
             hasAudioAvailable: PropTypes.bool.isRequired,
-            memberPreview: PropTypes.bool.isRequired,
-            postedDate: PropTypes.string.isRequired,
-            minutesToRead: PropTypes.string.isRequired
+            memberPreview: PropTypes.bool.isRequired
             })
     }
 

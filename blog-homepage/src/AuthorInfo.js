@@ -14,7 +14,9 @@ class AuthorInfo extends React.Component {
     static propTypes = {
         articleObj: PropTypes.shape({
             image: PropTypes.string.isRequired,
-            name: PropTypes.string.isRequired
+            name: PropTypes.string.isRequired,
+            postedDate: PropTypes.string.isRequired,
+            minutesToRead: PropTypes.string.isRequired
             })
     }
     
